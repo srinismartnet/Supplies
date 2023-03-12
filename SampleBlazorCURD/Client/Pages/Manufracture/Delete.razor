@@ -1,0 +1,51 @@
+﻿@page "/manufacture/delete/{Id:int}"
+@using SampleBlazorCURD.Shared
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+<h2>Delete Manufacture</h2>
+<br />
+<div class="form-group">
+    <h4>Do you want to delete this user?</h4>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>@manufacturing.Name</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>@manufacturing.Address</td>
+            </tr>
+            <tr>
+                <td>Cell No</td>
+                <td>@manufacturing.PhoneNumber</td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>@manufacturing.EmailId</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="form-group">
+    <input type="submit" value="Delete" @onclick="(async () => await RemoveUser(manufacturing.Id))" class="btn btn-danger" />
+    <input type="submit" value="Cancel" @onclick="(() => Cancel())" class="btn btn-warning" />
+</div>
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    ManufacturingCompany manufacturing = new ManufacturingCompany();
+    protected override async Task OnInitializedAsync()
+    {
+        manufacturing = await Http.GetFromJsonAsync<ManufacturingCompany>("/api/Manufacture/" + Convert.ToInt32(Id));
+    }
+    protected async Task RemoveUser(int ID)
+    {
+        await Http.DeleteAsync("api/Manufacture/" + ID);
+        NavigationManager.NavigateTo("/fetchdetails");
+    }
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("/fetchdetails");
+    }
+}

@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = SampleBlazorCURD.Client
+build_property.RootNamespace = SampleBlazorCURD.Client
+build_property.ProjectDir = C:\Users\srini\source\repos\Supplies\SampleBlazorCURD\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\srini\source\repos\Supplies\SampleBlazorCURD\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/Manufracture/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudWZyYWN0dXJlXEFkZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/Manufracture/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudWZyYWN0dXJlXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/Manufracture/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudWZyYWN0dXJlXERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/User/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxBZGRVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/User/DeleteUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZWxldGVVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Pages/User/Userdetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxVc2VyZGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xjc20fioc6
+
+[C:/Users/srini/source/repos/Supplies/SampleBlazorCURD/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-byljey6p9w

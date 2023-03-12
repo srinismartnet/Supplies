@@ -1,0 +1,12 @@
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\bin\Debug\net6.0\SampleBlazorCURD.Shared.deps.json
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\bin\Debug\net6.0\SampleBlazorCURD.Shared.dll
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\bin\Debug\net6.0\SampleBlazorCURD.Shared.pdb
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.csproj.AssemblyReference.cache
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.AssemblyInfoInputs.cache
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.AssemblyInfo.cs
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.csproj.CoreCompileInputs.cache
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.dll
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\refint\SampleBlazorCURD.Shared.dll
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\SampleBlazorCURD.Shared.pdb
+C:\Users\srini\source\repos\SampleBlazorCURD\SampleBlazorCURD\Shared\obj\Debug\net6.0\ref\SampleBlazorCURD.Shared.dll

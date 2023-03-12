@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SampleBlazorCURD.Client.props" />
+</Project>
