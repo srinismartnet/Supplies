@@ -10,22 +10,20 @@
     <div class="row col-12">
         <label for="Manufacture" class="form-label"><strong>Manufacture</strong></label>
         <br />
-        <div class="col-4">            
+        <div class="col-4">
             <label for="Name" class="form-label"><strong>Name </strong></label>
             <div class="col-md-6">
                 <InputText class="form-control" @bind-Value="user.Name" />
             </div>
             <ValidationMessage For="@(() => user.Name)" />
         </div>
-        <div class="col-4">            
+        <div class="col-4">
             <label for="Address" class="form-label"><strong>Address </strong></label>
             <div class="col-md-6">
                 <InputText class="form-control" @bind-Value="user.Address" />
             </div>
             <ValidationMessage For="@(() => user.Address)" />
         </div>
-    </div>
-    <div class="row col-12">
         <div class="col-4">
             <label for="Emailid" class="form-label"><strong>E-mail </strong></label>
             <div class="col-md-6">
@@ -33,6 +31,8 @@
             </div>
             <ValidationMessage For="@(() => user.EmailId)" />
         </div>
+    </div>
+    <div class="row col-12">
         <div class="col-4">
             <label for="nameofcontact" class="form-label"><strong>Name of Contact </strong></label>
             <div class="col-md-6">
@@ -47,17 +47,18 @@
             </div>
             <ValidationMessage For="@(() => user.PhoneNumber)" />
         </div>
-    </div>    
-   
+    </div>
+
     <div class=" row col-12">
-        <br/>
-        <div class="col-2">
-            <label for="Location" class="form-label"><strong>Location</strong></label>
-            <InputText class="form-control" @bind-Value="user.Location" />
-        </div>
+        <label for="Location" class="form-label" style="margin-top: 10px;"><strong>Location</strong></label>
+        <br />
         <div class="col-2">
             <label for="State" class="form-label"><strong>State</strong></label>
             <InputText class="form-control" @bind-Value="user.State" />
+        </div>
+        <div class="col-2">
+            <label for="District" class="form-label"><strong>District</strong></label>
+            <InputText class="form-control" @bind-Value="user.District" />
         </div>
         <div class="col-2">
             <label for="Mandal" class="form-label"><strong>Mandal</strong></label>
@@ -72,42 +73,37 @@
             <InputText class="form-control" @bind-Value="user.Pincode" />
         </div>
         <ValidationMessage For="@(() => user.State)" />
+        <ValidationMessage For="@(() => user.District)" />
         <ValidationMessage For="@(() => user.Mandal)" />
         <ValidationMessage For="@(() => user.Village)" />
         <ValidationMessage For="@(() => user.Pincode)" />
-    </div>   
-    <div class="mb-3">
-        <br />
-        <br />
-        <label for="FileContent" class="form-label"><strong>Upload File</strong></label>
-        <br />
-        <div class="col-md-4">
-            <InputFile class="form-control" @bind-Value="user.FileContent" />
-        </div>
-        <ValidationMessage For="@(() => user.FileContent)" />
     </div>
     <div class="row col-12">
+        <label for="issueDate" class="form-label" style="margin-top: 10px;"><strong>License Details</strong></label>
         <br />
-        <br />
-        <label for="issueDate" class="form-label"><strong>License Details</strong></label>
-        <br />
-        <div class="col-3">
+        <div class="col-4">
             <label for="LicenseNumber" class="form-label"><strong>License Number</strong></label>
             <InputText class="form-control" @bind-Value="user.LicenseNumber" />
         </div>
-        <div class="col-3">
+        <div class="col-4">
+            <label for="FileContent" class="form-label"><strong>Upload File</strong></label>
+            <InputFile class="form-control" @bind-Value="user.FileContent" />
+        </div>
+        <ValidationMessage For="@(() => user.LicenseNumber)" />
+        <ValidationMessage For="@(() => user.FileContent)" />
+    </div>
+    <div class="row col-12">
+        <div class="col-4">
             <label for="Issue Date" class="form-label"><strong>Issue Date</strong></label>
             <InputDate class="form-control" @bind-Value="user.IssueDate" />
         </div>
-        <div class="col-3">
-            <label for="Valid UpToDate" class="form-label"><strong>Valid UpToDate</strong></label>
+        <div class="col-4">
+            <label for="Valid UpToDate" class="form-label"><strong>Valid Upto</strong></label>
             <InputDate class="form-control" @bind-Value="user.ValidUpToDate" />
         </div>
-        <ValidationMessage For="@(() => user.LicenseNumber)" />
         <ValidationMessage For="@(() => user.IssueDate)" />
         <ValidationMessage For="@(() => user.ValidUpToDate)" />
     </div>
-
 
     <div class="form-group">
         <br />

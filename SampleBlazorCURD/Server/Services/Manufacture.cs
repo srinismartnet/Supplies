@@ -52,7 +52,7 @@ namespace SampleBlazorCURD.Server.Services
         {
             try
             {
-                return _dbContext.Companies.ToList();
+                return _dbContext.Companies.OrderByDescending(x=>x.Id).ToList();
             }
             catch
             {

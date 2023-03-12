@@ -12,7 +12,7 @@ namespace SampleBlazorCURD.Shared
         public string Name { get; set; } = null!;
         public string Address { get; set; } = null!;
         public string Pincode { get; set; } = null!;
-        public string Location { get; set; } = null!;
+        public string District { get; set; } = null!;
         public string LicenseNumber { get; set; } = null!;
         public DateTime IssueDate { get; set; } = DateTime.Now;
         public DateTime ValidUpToDate { get; set; } = DateTime.Now;
